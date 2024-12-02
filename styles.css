@@ -1,10 +1,55 @@
 body {
+  font-family: "Jost";
+  color: white;
+  margin: 10px;
+}
+.teaser {
+  display: flex;
+  max-width: 600px;
   background-color: #1a1a1a;
-  color: white;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+.contenu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.description {
+  font-weight: 200;
+  font-style: italic;
+}
+.image img {
+  max-width: 250px;
+  height: auto;
 }
 
-a {
-  color: white;
+.button a {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
-
-/* 🦊 Compléter les styles de votre teaser  */
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #8db3cb;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #6c99b3;
+  transform: scale(1.02);
+}
